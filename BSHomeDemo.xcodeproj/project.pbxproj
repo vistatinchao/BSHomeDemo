@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		7AA67C19232A05E400DB7EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C18232A05E400DB7EF0 /* AppDelegate.m */; };
 		7AA67C1C232A05E400DB7EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C1B232A05E400DB7EF0 /* ViewController.m */; };
-		7AA67C1F232A05E400DB7EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA67C1D232A05E400DB7EF0 /* Main.storyboard */; };
 		7AA67C21232A05E900DB7EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA67C20232A05E900DB7EF0 /* Assets.xcassets */; };
 		7AA67C24232A05E900DB7EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA67C22232A05E900DB7EF0 /* LaunchScreen.storyboard */; };
 		7AA67C27232A05E900DB7EF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C26232A05E900DB7EF0 /* main.m */; };
+		7AA67C2F232A14F700DB7EF0 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C2E232A14F700DB7EF0 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,12 @@
 		7AA67C18232A05E400DB7EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7AA67C1A232A05E400DB7EF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7AA67C1B232A05E400DB7EF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7AA67C1E232A05E400DB7EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AA67C20232A05E900DB7EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AA67C23232A05E900DB7EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AA67C25232A05E900DB7EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AA67C26232A05E900DB7EF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AA67C2D232A14F700DB7EF0 /* UIView+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		7AA67C2E232A14F700DB7EF0 /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +63,12 @@
 				7AA67C18232A05E400DB7EF0 /* AppDelegate.m */,
 				7AA67C1A232A05E400DB7EF0 /* ViewController.h */,
 				7AA67C1B232A05E400DB7EF0 /* ViewController.m */,
-				7AA67C1D232A05E400DB7EF0 /* Main.storyboard */,
 				7AA67C20232A05E900DB7EF0 /* Assets.xcassets */,
 				7AA67C22232A05E900DB7EF0 /* LaunchScreen.storyboard */,
 				7AA67C25232A05E900DB7EF0 /* Info.plist */,
 				7AA67C26232A05E900DB7EF0 /* main.m */,
+				7AA67C2D232A14F700DB7EF0 /* UIView+Layout.h */,
+				7AA67C2E232A14F700DB7EF0 /* UIView+Layout.m */,
 			);
 			path = BSHomeDemo;
 			sourceTree = "<group>";
@@ -130,7 +132,6 @@
 			files = (
 				7AA67C24232A05E900DB7EF0 /* LaunchScreen.storyboard in Resources */,
 				7AA67C21232A05E900DB7EF0 /* Assets.xcassets in Resources */,
-				7AA67C1F232A05E400DB7EF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA67C2F232A14F700DB7EF0 /* UIView+Layout.m in Sources */,
 				7AA67C1C232A05E400DB7EF0 /* ViewController.m in Sources */,
 				7AA67C27232A05E900DB7EF0 /* main.m in Sources */,
 				7AA67C19232A05E400DB7EF0 /* AppDelegate.m in Sources */,
@@ -150,14 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7AA67C1D232A05E400DB7EF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AA67C1E232A05E400DB7EF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7AA67C22232A05E900DB7EF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
