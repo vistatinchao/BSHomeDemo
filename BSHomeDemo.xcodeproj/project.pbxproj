@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1DEB7C232F66B9009F24A8 /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DEB7B232F66B9009F24A8 /* AllViewController.m */; };
+		7A1DEB7F232F66C2009F24A8 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DEB7E232F66C2009F24A8 /* PictureViewController.m */; };
+		7A1DEB82232F66CB009F24A8 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DEB81232F66CB009F24A8 /* VideoViewController.m */; };
+		7A1DEB85232F66D3009F24A8 /* VoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DEB84232F66D3009F24A8 /* VoiceViewController.m */; };
+		7A1DEB88232F66E6009F24A8 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DEB87232F66E6009F24A8 /* JokesViewController.m */; };
+		7A8C4C61232F7F0500F2132E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8C4C60232F7F0500F2132E /* BaseViewController.m */; };
 		7AA67C19232A05E400DB7EF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C18232A05E400DB7EF0 /* AppDelegate.m */; };
 		7AA67C1C232A05E400DB7EF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA67C1B232A05E400DB7EF0 /* ViewController.m */; };
 		7AA67C21232A05E900DB7EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA67C20232A05E900DB7EF0 /* Assets.xcassets */; };
@@ -16,6 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1DEB7A232F66B9009F24A8 /* AllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
+		7A1DEB7B232F66B9009F24A8 /* AllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
+		7A1DEB7D232F66C2009F24A8 /* PictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		7A1DEB7E232F66C2009F24A8 /* PictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		7A1DEB80232F66CB009F24A8 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		7A1DEB81232F66CB009F24A8 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		7A1DEB83232F66D3009F24A8 /* VoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceViewController.h; sourceTree = "<group>"; };
+		7A1DEB84232F66D3009F24A8 /* VoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceViewController.m; sourceTree = "<group>"; };
+		7A1DEB86232F66E6009F24A8 /* JokesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JokesViewController.h; sourceTree = "<group>"; };
+		7A1DEB87232F66E6009F24A8 /* JokesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesViewController.m; sourceTree = "<group>"; };
+		7A8C4C5F232F7F0500F2132E /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7A8C4C60232F7F0500F2132E /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		7AA67C14232A05E400DB7EF0 /* BSHomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSHomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA67C17232A05E400DB7EF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AA67C18232A05E400DB7EF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1DEB79232F6694009F24A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A1DEB7A232F66B9009F24A8 /* AllViewController.h */,
+				7A1DEB7B232F66B9009F24A8 /* AllViewController.m */,
+				7A1DEB7D232F66C2009F24A8 /* PictureViewController.h */,
+				7A1DEB7E232F66C2009F24A8 /* PictureViewController.m */,
+				7A1DEB80232F66CB009F24A8 /* VideoViewController.h */,
+				7A1DEB81232F66CB009F24A8 /* VideoViewController.m */,
+				7A1DEB83232F66D3009F24A8 /* VoiceViewController.h */,
+				7A1DEB84232F66D3009F24A8 /* VoiceViewController.m */,
+				7A1DEB86232F66E6009F24A8 /* JokesViewController.h */,
+				7A1DEB87232F66E6009F24A8 /* JokesViewController.m */,
+				7A8C4C5F232F7F0500F2132E /* BaseViewController.h */,
+				7A8C4C60232F7F0500F2132E /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7AA67C0B232A05E400DB7EF0 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +96,7 @@
 		7AA67C16232A05E400DB7EF0 /* BSHomeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A1DEB79232F6694009F24A8 /* Controller */,
 				7AA67C17232A05E400DB7EF0 /* AppDelegate.h */,
 				7AA67C18232A05E400DB7EF0 /* AppDelegate.m */,
 				7AA67C1A232A05E400DB7EF0 /* ViewController.h */,
@@ -143,8 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA67C2F232A14F700DB7EF0 /* UIView+Layout.m in Sources */,
+				7A8C4C61232F7F0500F2132E /* BaseViewController.m in Sources */,
+				7A1DEB7F232F66C2009F24A8 /* PictureViewController.m in Sources */,
+				7A1DEB88232F66E6009F24A8 /* JokesViewController.m in Sources */,
 				7AA67C1C232A05E400DB7EF0 /* ViewController.m in Sources */,
 				7AA67C27232A05E900DB7EF0 /* main.m in Sources */,
+				7A1DEB82232F66CB009F24A8 /* VideoViewController.m in Sources */,
+				7A1DEB85232F66D3009F24A8 /* VoiceViewController.m in Sources */,
+				7A1DEB7C232F66B9009F24A8 /* AllViewController.m in Sources */,
 				7AA67C19232A05E400DB7EF0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
